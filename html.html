@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XO GAME</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    body{
+      display: flex;
+      justify-content: center;
+      background-color: rgb(102, 127, 127);
+    align-items: center;
+      
+     
+    
+  }
+
+    .counainer{
+      background-color: black;
+      width: 25%;
+      height: 40vh;
+      border-radius: 25px;
+      transform: translateY(65%);
+      display: flex;
+      flex-wrap: wrap;
+      padding-left: 8px;
+
+
+    }
+    .play{
+      
+      
+      background-color: white;
+      border-color: black;
+      margin: 5px;
+      width: 30%;
+      height: 30%;
+      border-radius: 10px;
+      cursor: pointer;
+
+    }
+    h1{
+      margin-left: 25%;
+      margin-top: 20%;
+    }
+    .plyer{
+      color: white;
+      margin-top: 10px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+
+    } 
+    .chek{
+      color: orange;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      margin-left: 32%;
+      font-size: 65px;
+      margin-top: -0.1%;
+     
+    }
+    button{
+      position: fixed;
+      margin-left: 90px;
+      width: 7%;
+      height: 8%;
+      margin-top: 60px;
+      background-color: black;
+      border-radius: 10px;
+      color: orange;
+      font-weight: bold;
+      font-size: 32px;
+    }
+    .Reply{
+      position: fixed;
+      margin-top: 110vh;
+      margin-left: 15vh;
+      cursor: pointer;
+      transition: 0.7s;
+
+    }
+    .Reply:hover{
+      transform: scale(1.1);
+    }
+   
+    @media  (max-width:450px){
+      *{
+        margin: 0;
+        padding: 0;
+      }
+      body{
+        display: flex;
+        justify-content: center;
+        background-color: rgb(102, 127, 127);
+      align-items: center;
+        
+       
+      
+     }
+     .counainer{
+      background-color: black;
+      width: 80%;
+      height: 40vh;
+      border-radius: 25px;
+      transform: translateY(65%);
+      display: flex;
+      flex-wrap: wrap;
+      padding-left: 8px;
+      margin-left: -26%;
+      margin-top: 14%;
+
+
+    }
+    button{
+      position: fixed;
+      margin-left: 10px;
+      width: 26%;
+      height: 6%;
+      margin-top: 105px;
+      background-color: black;
+      border-radius: 10px;
+      color: orange;
+      font-weight: bold;
+      font-size: 32px;
+    }
+    .Reply{
+      position: fixed;
+      margin-top: 110vh;
+      margin-left: 1vh;
+      cursor: pointer;
+      transition: 0.7s;
+
+    }
+    .Reply:hover{
+      transform: scale(1.1);
+    }
+    .play{
+      
+      
+      background-color: white;
+      border-color: black;
+      margin: 5px;
+      width: 28%;
+      height: 30%;
+      border-radius: 10px;
+      cursor: pointer;
+
+    }
+
+    }
+    @media  (min-width:460px){
+      *{
+        margin: 0;
+        padding: 0;
+      }
+      body{
+        display: flex;
+        justify-content: center;
+        background-color: rgb(102, 127, 127);
+      align-items: center;
+        
+       
+      
+     }
+     .counainer{
+      background-color: black;
+      width: 70%;
+      height: 40vh;
+      border-radius: 25px;
+      transform: translateY(65%);
+      display: flex;
+      flex-wrap: wrap;
+      padding-left: 25px;
+      margin-left: -19%;
+      margin-top: 14%;
+
+
+    }
+    button{
+      position: fixed;
+      margin-left: 10px;
+      width: 26%;
+      height: 6%;
+      margin-top: 15vh;
+      background-color: black;
+      border-radius: 10px;
+      color: orange;
+      font-weight: bold;
+      font-size: 32px;
+    }
+    .Reply{
+      position: fixed;
+      margin-top: 110vh;
+      margin-left: 1vh;
+      cursor: pointer;
+      transition: 0.7s;
+
+    }
+    .Reply:hover{
+      transform: scale(1.1);
+    }
+    .play{
+      
+      
+      background-color: white;
+      border-color: black;
+      margin: 5px;
+      width: 28%;
+      height: 30%;
+      border-radius: 10px;
+      cursor: pointer;
+
+    }
+
+    }
+    @media  (min-width:760px){
+      *{
+        margin: 0;
+        padding: 0;
+      }
+      body{
+        display: flex;
+        justify-content: center;
+        background-color: rgb(102, 127, 127);
+      align-items: center;
+        
+       
+      
+     }
+     .counainer{
+      background-color: black;
+      width: 60%;
+      height: 40vh;
+      border-radius: 25px;
+      transform: translateY(65%);
+      display: flex;
+      flex-wrap: wrap;
+      padding-left: 35px;
+      margin-left: -19%;
+      margin-top: 14%;
+
+
+    }
+    button{
+      position: fixed;
+      margin-left: -25px;
+      width: 22%;
+      height: 6%;
+      margin-top: 17vh;
+      background-color: black;
+      border-radius: 10px;
+      color: orange;
+      font-weight: bold;
+      font-size: 32px;
+    }
+    .Reply{
+      position: fixed;
+      margin-top: 110vh;
+      margin-left: -4vh;
+      cursor: pointer;
+      transition: 0.7s;
+
+    }
+    .Reply:hover{
+      transform: scale(1.1);
+    }
+    .play{
+      
+      
+      background-color: white;
+      border-color: black;
+      margin: 5px;
+      width: 28%;
+      height: 30%;
+      border-radius: 10px;
+      cursor: pointer;
+
+    }
+
+    }
+    
+    
+    
+      
+    
+  
+    
+    
+  </style>
+</head>
+<body>
+  <div class="pl">
+    <h2 style="color: black;" class="plyer  ">player 1:<span style="color: aliceblue;" class="player1">0</span></h2>
+    <h2 style="color: black;"  class="plyer ">player 2:<span style="color: aliceblue;" class="player2">0</span></h2>
+  </div>
+  <button>wail</button>
+  <div class="counainer">
+    <div onclick="playe(0) " class="play"><h1  class="chek"></h1></div>
+    <div onclick="playe(1)" class="play"><h1 class="chek"></h1></div>
+    <div onclick="playe(2) " class="play"><h1 class="chek"></h1></div>
+    <div onclick="playe(3) " class="play"><h1 class="chek"></h1></div>
+    <div onclick="playe(4) " class="play"><h1 class="chek"></h1></div>
+    <div onclick="playe(5) " class="play"><h1 class="chek"></h1></div>
+    <div onclick="playe(6) " class="play"><h1 class="chek"></h1></div>
+    <div onclick="playe(7) " class="play"><h1 class="chek"></h1></div>
+    <div onclick="playe(8) " class="play"><h1 class="chek"></h1></div>
+  </div>
+  <button onclick="reply()" class="Reply">Reply</button>
+  <script src="js.js"></script>
+  
+</body>
+</html>
